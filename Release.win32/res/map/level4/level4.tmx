@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="64" height="36" tilewidth="20" tileheight="20" infinite="0" nextobjectid="27">
+ <tileset firstgid="1" source="blocks.tsx"/>
+ <tileset firstgid="65" source="wall.tsx"/>
+ <tileset firstgid="4115" source="doorIn.tsx"/>
+ <tileset firstgid="4127" source="doorOut.tsx"/>
+ <tileset firstgid="4139" source="light.tsx"/>
+ <tileset firstgid="4148" source="window.tsx"/>
+ <tileset firstgid="4157" source="grass.tsx"/>
+ <layer name="wall" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztmPdrFEEUx/e3nT/GBhaIGrCA8f4iG1gg6oEF1MMGFogFNIL+STawgA2igvHwO5jHvbz7zs7MbrjdhTz4cLvjTJzXZ6coNiVVlsqieAQegyfgadn2jjZOnkGX5+Xkdxm8KNfr/AV8Bd/Ad/AD3AP3wQPwMOG9qyJ6r4Cf4Bf4bfSfc0WxF+wD+8E8+IDxj+AT+FxOv/dJ/5vgFrgN7oC7xueL0Pc8uAAugiHYCXaB3WAPebf26Kp4/V+DN+AteAfeE5/bGnAaY2fAWXDOTb9be3RVvP5bsL+tYBvYDna4aZ/bGsBqoo55a4+uitf/GPZ3HJwAJ8Ep8BLjr8A1PF930/HAaqKN+T7k/0o5Qde/P2AV/F3ztfhbfllNtDHfh/w/4CYcBIfAYXAELICja74Wf8svq4k25vuQ/5fchMvgCrjq/sc9y3Hmd4mTcTnJm9T8b9In7dqNzjOW48zvEicDtz5vxoE6qZ9jfVLraPW1a+25o2ptijBfW/2kPt4AI5M3g0Cd1D0k1ie1juycotfacwebn1OPtK+ZHwdmPPQs88WGuofYPLFrtH3YOUWvtecONt/7PrUe2Rpo/Tgy46FnmS/5IrmT0lO1fdg5xcZ1bL7MjQnzn+w19G0Qeha/W/1sfLE1Y5W77JxS9d3B5svcmDBfsFwQHay9bJ1k9pw3tmG1dWB0zP3usO8yNybMF1LzmG1kjNWc1cCaodKT/X9iM61j7neHfZe5MWG+kJrO9ipjrOYsBNZUxctQ5UvOt0TMPjnCYnYUiGU5I7Oa4/sj08/GQ0oMzlJ0zDKddR+XMzKrOTJf/70U3ZjNZil6jyx/dd+ac3x+qFek6Nb2vaPeI/OX7uOLjs+P3SNVCbN5W1K1d/ZvMtYkh/3aPtwjMv2tHerksF/bl3vE2HdeXenLPWJVf6ibt0uZvb9NqeoPdft2l+pfTJj/m/btts8/OZJyP54rtvbP+vyTI+Ir0btp7Frdu1z7vVTdF9SJXdv3ulz7vVTdF9SpAbbvdbn2e2G1qknt60vfE2n7W21T8uQfavVL9g==
+  </data>
+ </layer>
+ <layer name="pillar" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt1z0zXGEYxvFHF9YyEyrRh1aEsNlFCjERGlKiIn2SD3C1qMR4m2G9RuxSRHpJmfgOoV3vJLsbBWb8C41C4ezadcZ9zfzmzDn7PPdzrjmj4JzFYrFYLLnNNGYQxSzmMI8FLGIJX7CMr1hBDHGsYs05cRX34rn4XawT68U+sV/MEfPEXDFfnCPOE+eK85XjyteSwA52sYd9HOAQRzjGCf7iH5JIIY3/OOX9uYp78Vz8LtaJ9WKf2C/miHlirpgvzhHniXOVyHP/mgLnnqEWz1GHerxAAxoRwkuEEUETmtGCVwVOXMW9eC5+F+vEerFP7BdzxDwxV8wX54jzxLni/Lz2f8ipKHbuCSqL8/0m+Uk/vQfw/oH2/0bvdXz32P9X0Lnf2Axm971ylTN6n+PCY//HJc6Vobwku++Vq7Ty3V6jzeP366F3L/p82n+E3p8x6rH/Cr1jiPu0/x96b2HbY/8kvVNIX/V/U+pcO96iA52l2XvXu8hT3rsK1R6/X4R+TWi+6jnGdRwTmMTUPe//gd4f8clj/0H6DWH4nve8KRv0/oGfPv37zTSP+G6FKPLp98s0XfTuxjsf9w8F+N8MYUQCt9sbpfcs5nzc32KxWCwWi8VisVj8lEtEjXvV
+  </data>
+ </layer>
+ <layer name="blocks" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzVmAuqwyAQRd1CCxUaSPa/zBchAye34+tog7UXpI35OP+5uqaUHvtY95GP/2VsmN/k2uYyns2Y53vrcZ0xb2vMgCLPso/bPp7HuB/XZZ762f8t+TairfgO7bbi3RlQZLwNXI+xNgOKH0bqz5iZAUWe5+D1rFbMgCLPMnA91sgZ8A3/z5T/RY7R/rcYmAHfqP+z9f/7wPWKvY0feJyLPCnLfbte5T6/uaUzz8jpzLn4rL07Mv6pN/WzOeVQyjtpM9NBn83p3Gey8549W0apf8YBl+P6hrlRUN/SFleD8WT2Ui4/ujYwVpVnXw3mhnL3B+aiuTETp4tA9c/ya3EY5Qb2vV8B43+Ta9aQaG+wuP0VcE+uNZhxEPX/TJw2Aq+fsidYLYjmv9nwV0B91QasCdH4v2JPxzMVPYciPF7g5a73y2c9LqHnW9H+d5X+jD3yQUL5kepGu5D31TgluSDvGTeK4Ar9Ka+eqxH0Vw8YY4wZtUWZj+b/FfWP3EdjQdf6ZD2v3uueo7X+eX7yQG5tvPueztxPOYnqT37cA631GvPkgosj6xPztkeI1n+tUbo+Y4BcjGCN7gHrn2dvbx+icbKm17oT8Qf3pbqOx/v/0/9T/6sOuvfIMtRGrBPRfVqL7LWzYsZPD7TGaQzovjwia3SfxniPyqnfrfGCKNTPWv943aJXNP9ba4Xan2chPfC4wkMGczoqazT+o/rXzgprdSEKzX+vD2gPfocoH2nxXU1/+q8HrPteXdPYj9b1iDwtstfOv9g3e6DnhPQ1Y4O1MCJrxE4tOVXr87W4iIK6ag5obYz6Khon7JfvQG7gfeOT/GcOeH1fudE7tMRJS6/w4pz7uR54dY9+UT7GX+2R+kx0beVfdq1ref73fERfqU6a05rbOq/7Ze2P+u2c2uJEeZbq4+3VPf1pN41hlZMy8v0/siRSeQ==
+  </data>
+ </layer>
+ <layer name="doorIn" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztz8kJwDAUQ8FfgiH72n+ZUReGeAZ016sCgLFNrWrOltb7SR9rurdsH7T/SPeZXYP23+l+snfQfgAAAAAAgD/4AA/MAec=
+  </data>
+ </layer>
+ <layer name="doorOut" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztz0kNwDAUQ8EPIQy6r/wB1iwiNTOS735VAAAA8A9Tq5qzpfV+0sea7i3bB+0/0n1m16D9d7qf7B20HwAAAGBkHzEAAnc=
+  </data>
+ </layer>
+ <layer name="window" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztz7sJwEAMREGVoGLs8+/6r8tqQInByTEDDzbdCIDvtozYq5H9XtlR/87qyn6v7K5/TzWz3wAAAAAAAAD86wXjwAeZ
+  </data>
+ </layer>
+ <layer name="light" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKgEAMhOEcYe/ha9X7383UQkhWFAb5P0iXZphmzIDY1Mxmv6V9869u9RybXy/mGf1Xt3uOw+8s5hn9BwAAz2W762+77C7bXeq7LOqn2lu2u9R3WdSPem9vifpR7w0AAAAAAACArgtAeg1L
+  </data>
+ </layer>
+ <layer name="grass" width="64" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEVwDAIREEkYKht/KtqLOQCycuMArjsjwAAuNOTEW92X9Hnm7+Pi/8HoE9Fg3fufEWDdR7W7LwZFWwGAADA+X4usATp
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" name="InitialPos" x="92" y="181.5" width="1" height="1"/>
+  <object id="2" name="npcPos" x="250" y="430" width="1" height="1"/>
+  <object id="3" name="exitPos" x="1178.5" y="323.5" width="1" height="1"/>
+  <object id="5" name="wall" x="0" y="-1" width="20" height="723">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="6" name="wall" x="21" y="242" width="140" height="478">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="7" name="wall" x="158" y="482" width="241" height="238">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="8" name="wall" x="361" y="261" width="39" height="219">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="9" name="wall" x="560" y="460.667" width="280" height="258.667">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="10" name="wall" x="700.667" y="360.667" width="139.333" height="100">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="11" name="wall" x="20" y="-2" width="600.667" height="22">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="12" name="wall" x="160.667" y="20.6667" width="459.333" height="18.6667">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="13" name="wall" x="559.333" y="39.3333" width="60" height="180">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="14" name="wall" x="619.333" y="180" width="660.667" height="39.3333">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="wall" x="700" y="220" width="140.667" height="39.3333">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="16" name="wall" x="900.667" y="360" width="379.333" height="358.667">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="17" name="wall" x="1241.33" y="222" width="38" height="138.667">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+  <object id="19" name="barrier" x="20" y="20" width="140" height="19.3333">
+   <properties>
+    <property name="barrier" value=""/>
+   </properties>
+  </object>
+  <object id="20" name="barrier" x="20" y="38.6667" width="20.6667" height="202">
+   <properties>
+    <property name="barrier" value=""/>
+   </properties>
+  </object>
+  <object id="21" name="barrier" x="40.6667" y="219.333" width="138.667" height="21.3333">
+   <properties>
+    <property name="barrier" value=""/>
+   </properties>
+  </object>
+  <object id="22" name="barrier" x="160.667" y="241.833" width="18.6667" height="238.833">
+   <properties>
+    <property name="barrier" value=""/>
+   </properties>
+  </object>
+  <object id="23" name="barrier" x="180.667" y="458.833" width="179.833" height="21.1667">
+   <properties>
+    <property name="barrier" value=""/>
+   </properties>
+  </object>
+  <object id="24" name="barrier" x="559.333" y="440.667" width="120.25" height="20">
+   <properties>
+    <property name="barrier" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="wall" x="679" y="440.5" width="22.25" height="19.5">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

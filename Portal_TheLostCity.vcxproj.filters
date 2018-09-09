@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal">
+      <UniqueIdentifier>{7f5ea3f1-7abc-467a-a0d2-828e1431193e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景">
+      <UniqueIdentifier>{86ded650-7859-48a5-ab4d-ba997b063f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\关卡">
+      <UniqueIdentifier>{8804120f-ef90-4162-b9fc-592b2f44486f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面">
+      <UniqueIdentifier>{9e28fbed-5fef-43d7-96c1-8299a3b2eafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\控制器">
+      <UniqueIdentifier>{d67b1fa0-1eef-4acc-8001-fe1808b9a462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\实体">
+      <UniqueIdentifier>{04d9b95e-39c7-4371-8809-85a85f55dad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\实体\主角">
+      <UniqueIdentifier>{39d36e5e-8c76-448d-8a4e-da33c0420654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\工具">
+      <UniqueIdentifier>{69771e86-3458-498e-a57c-0670273e0fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\NPC">
+      <UniqueIdentifier>{2460146c-9acc-4e08-b88b-c5b9e11f056e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\关于场景">
+      <UniqueIdentifier>{fbfe4a0b-f284-4763-affa-8c086ed3d03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\帮助场景">
+      <UniqueIdentifier>{db4159b7-4fff-4be6-af46-0a3b2e2e511e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\关卡选择场景">
+      <UniqueIdentifier>{76166bbe-8086-44c9-9529-2ab5f925c4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\暂停场景">
+      <UniqueIdentifier>{d302e9c5-4de8-49a6-95bc-bae09207a52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\开始场景">
+      <UniqueIdentifier>{caae0def-aaa2-442c-aaa0-54cc145f1085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\设置场景">
+      <UniqueIdentifier>{9c866401-4e70-4da6-9b0a-1d98c10026ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\胜利场景">
+      <UniqueIdentifier>{a74df255-9031-44fb-9c8b-7a58c94022bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\工具\动画">
+      <UniqueIdentifier>{3475188f-286d-4022-8906-28a8b7a03f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\工具\计时器">
+      <UniqueIdentifier>{305ee502-814a-4073-8e0b-904020dd3f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\死亡场景">
+      <UniqueIdentifier>{f3aa5c46-8627-4a66-92db-b389adf0e1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\实体\传送门">
+      <UniqueIdentifier>{35cbf3b2-d72b-4912-a6b4-fac468fbd7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\实体\怪物">
+      <UniqueIdentifier>{87d3d7df-a57e-40ef-a9df-a5523f680a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portal\场景\界面\开始场景\plot">
+      <UniqueIdentifier>{3fbf9ff6-e24b-4e2c-bbbe-45c666a5d7cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelScene.cpp">
+      <Filter>Portal\场景\关卡</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Portal\实体\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>Portal\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KeyboardController.cpp">
+      <Filter>Portal\控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NPC.cpp">
+      <Filter>Portal\场景\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopWin.cpp">
+      <Filter>Portal\场景\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AboutScene.cpp">
+      <Filter>Portal\场景\界面\关于场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpScene.cpp">
+      <Filter>Portal\场景\界面\帮助场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelectScene.cpp">
+      <Filter>Portal\场景\界面\关卡选择场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseScene.cpp">
+      <Filter>Portal\场景\界面\暂停场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WinnerScene.cpp">
+      <Filter>Portal\场景\界面\胜利场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartMenuScene.cpp">
+      <Filter>Portal\场景\界面\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Setting_Scene.cpp">
+      <Filter>Portal\场景\界面\设置场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimationUtil.cpp">
+      <Filter>Portal\工具\动画</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCounter.cpp">
+      <Filter>Portal\工具\计时器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\YouDiedScene.cpp">
+      <Filter>Portal\场景\界面\死亡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gun.cpp">
+      <Filter>Portal\实体\传送门</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Portal.cpp">
+      <Filter>Portal\实体\传送门</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Missile.cpp">
+      <Filter>Portal\实体\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monsters.cpp">
+      <Filter>Portal\实体\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartGame.cpp">
+      <Filter>Portal\场景\界面\开始场景\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EndGame.cpp">
+      <Filter>Portal\场景\界面\开始场景\plot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelScene.h">
+      <Filter>Portal\场景\关卡</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>Portal\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KeyboardController.h">
+      <Filter>Portal\控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Portal\实体\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NPC.h">
+      <Filter>Portal\场景\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopWin.h">
+      <Filter>Portal\场景\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutScene.h">
+      <Filter>Portal\场景\界面\关于场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpScene.h">
+      <Filter>Portal\场景\界面\帮助场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelectScene.h">
+      <Filter>Portal\场景\界面\关卡选择场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseScene.h">
+      <Filter>Portal\场景\界面\暂停场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Setting_Scene.h">
+      <Filter>Portal\场景\界面\设置场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WinnerScene.h">
+      <Filter>Portal\场景\界面\胜利场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartMenuScene.h">
+      <Filter>Portal\场景\界面\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationUtil.h">
+      <Filter>Portal\工具\动画</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCounter.h">
+      <Filter>Portal\工具\计时器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\YouDiedScene.h">
+      <Filter>Portal\场景\界面\死亡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gun.h">
+      <Filter>Portal\实体\传送门</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Portal.h">
+      <Filter>Portal\实体\传送门</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Missile.h">
+      <Filter>Portal\实体\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monsters.h">
+      <Filter>Portal\实体\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\config.h">
+      <Filter>Portal\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartGame.h">
+      <Filter>Portal\场景\界面\开始场景\plot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndGame.h">
+      <Filter>Portal\场景\界面\开始场景\plot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>Portal\场景\界面</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
